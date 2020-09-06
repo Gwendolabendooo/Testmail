@@ -1,0 +1,434 @@
+#propos{
+    height: 100vh;
+    background-image: url(./Img/backpropos2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.ctnPropos{
+    width: 65%;
+    height: 100%;
+}
+
+.backTitlePropos{
+    text-align: center;
+    color: #33E073;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+}
+
+.titlePropos{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    transform: translate(-50%, 10px);
+    left: 50%;
+}
+
+.backDescPropos{
+    position: relative;
+    color: white;
+    font-size: 17px;
+    width: 68%;
+    margin: auto;
+    line-height: 1.7em;
+    top: 275px;
+}
+
+.textPropos{
+    position: absolute;
+}
+
+.textPropos2{
+    top: 140px;
+}
+
+.textPropos3{
+    top: 250px;
+}
+
+.formesPropos{
+    width: 75%;
+    top: 250px;
+    margin: auto;
+    position: relative;
+    transition: all 1s;
+    transform: scale(0.1);
+}
+
+.losange{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 50%;
+}
+
+.los1{
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    transform: rotate(45deg) translate(-50px, 0px);
+}
+
+.los2{
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg) translate(-29px, 0px);
+}
+
+.losLeft{
+    left: 25%;
+}
+
+.losRight{
+    left: 75%;
+}
+
+.ellipse{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    width: 130px;
+    top: 27px;
+    left: -30px;
+    height: 16px;
+}
+
+.ellipseLeft{
+    left: 100px;
+    display: none;
+}
+
+.trait{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: calc(50% - 1px);
+    width: 550px;
+    height: 2px;
+    top: -34px;
+}
+
+.carre{
+    background-color: rgba(34, 34, 34, 0.74);
+    position: absolute;
+    transition: all 1s;
+    display: none;
+}
+
+.carree{
+    background-color: rgba(34, 34, 34, 0.74);
+    transition: all 1s;
+    position: absolute;
+}
+
+.cc1{
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    top: -50px;
+    animation-duration: 9s;
+    animation-name: mario;
+    animation-delay: .3s;
+    animation-iteration-count: infinite;
+}
+
+.c1{
+    width: 240px;
+    height: 240px;
+    left: 0%;
+    bottom: -88%;
+    transform: rotate(228deg);
+}
+
+.c2{
+    width: 200px;
+    height: 200px;
+    left: 51%;
+    bottom: -49%;
+    transform: rotate(43deg);
+}
+
+.c3{
+    width: 140px;
+    height: 140px;
+    left: 16%;
+    bottom: -62%;
+    transform: rotate(110deg);
+}
+
+.c4{
+    width: 250px;
+    height: 250px;
+    left: 32%;
+    bottom: -77%;
+    transform: rotate(244deg);
+}
+
+.c5{
+    width: 180px;
+    height: 180px;
+    left: 44%;
+    bottom: -79%;
+    transform: rotate(274deg);
+}
+
+.c6{
+    width: 210px;
+    height: 210px;
+    left: 13%;
+    bottom: -83%;
+    transform: rotate(8deg);
+}
+
+.c7{
+    width: 250px;
+    height: 250px;
+    left: 34%;
+    bottom: -70%;
+    transform: rotate(81deg);
+}
+
+.bouton {
+    border: solid 3px #33E073;
+    background-color: #33e07347;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .5s;
+    margin-left: 15px;
+}
+
+.bouton:hover { 
+    background-color: #0b9d41;
+}
+
+.presentation{
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+.profil{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: calc(50% + 34px);
+    width: 70%;
+    height: 75%;
+    position: relative;
+    text-align: center
+}
+
+.pp{
+    width: 100px;
+    height: 100px;
+    background-image: url(./Img/pp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 50px);
+    z-index: 10;
+}
+
+.ctnProfil{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 75px);
+    top: 75px;
+    background-color: #161616fa;
+    border-radius: 25px;
+    box-shadow: inset -2px -7px 6px 4px #29292975;
+    font-size: 16px;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+.dcarre1{
+    width: 110%;
+    height: 101px;
+    left: -170px;
+    transform: rotate(-45deg);
+}
+
+.dcarre{
+    width: 110%;
+    transform: rotate(5deg);
+    height: 90px;
+    left: 0;
+    top: -15px;
+}
+
+.styleMore{
+    position: absolute;
+    background-color: #0000002e;
+}
+
+.profilTxt {
+    display: flex;
+    padding: 10px;
+    margin: 14px 15px 7px 25px;
+}
+
+.profilForm{
+    color: white;
+}
+
+.profilResp{
+    color: #ffffff75;
+    margin-left: 20px;
+}
+
+
+@keyframes scaleUp {
+    0% {
+      transform: scale(0.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes mario {
+    0% {
+      transform: rotate(0deg);
+      left: 0px;
+    }
+    10% {
+        transform: rotate(90deg);
+        left: 50px;
+      }
+      20% {
+          transform: rotate(180deg);
+          left: 100px;
+      }
+      30% {
+        transform: rotate(270deg);
+        left: 150px;
+      }
+      40% {
+          transform: rotate(360deg);
+          left: 200px;
+      }
+    50% {
+        transform: rotate(450deg);
+        left: 250px;
+    }
+    57% {
+        transform: rotate(540deg);
+        left: 300px;
+      }
+      66% {
+          transform: rotate(630deg);
+          left: 350px;
+        }
+        75% {
+            transform: rotate(720deg);
+            left: 400px;
+        }
+        85% {
+          transform: rotate(810deg);
+          left: 450px;
+        }
+        93% {
+            transform: rotate(900deg);
+            left: 500px;
+            top: -50px;
+        }
+        95% {
+            top: -80px;
+        }
+        100% {
+            transform: rotate(1100deg);
+            left: 590px;
+            top: 70px;
+        }
+  }
+
+  @keyframes portal1 {
+    0%{
+        height: 75px;
+        width: 23px;
+        border-color: #5f0808;
+        background-color: #ff953a9c;
+    }
+    8%{
+        width: 0px;
+        height: 0px; 
+        border-color: transparent;
+        background-color: transparent;
+    }
+    93% {
+      width: 0px;
+      height: 0px;
+      border-color: transparent;
+      background-color: transparent;
+    }
+    100%{
+        height: 75px;
+        width: 23px;
+        border-color: #5f0808;
+        background-color: #ff953a9c;
+    }
+}
+
+@keyframes portal2 {
+    0%{
+        width: 0px;
+        height: 0px; 
+        border-color: #0e1c44;
+        background-color: #074c7d;
+    }
+    4% {
+        width: 23px;
+        height: 75px;
+      }
+    8% {
+      width: 23px;
+      height: 75px;
+    }
+    14%{
+        width: 0px;
+        height: 0px; 
+        border-color: transparent;
+        background-color: transparent;
+    }
+    100%{
+        border-color: transparent;
+        background-color: transparent;
+        height: 0px;
+        width: 0px;
+    }
+}
+
+  .port2{
+    top: -73px;
+    left: -8px;
+    animation-duration: 9s;
+    animation-name: portal2;
+    animation-iteration-count: infinite;
+  }
+  .port1{
+    top: 56px;
+    left: 605px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    animation-duration: 9s;
+    animation-name: portal1;
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+  }
+  .portail{
+    position: absolute;
+    border-radius: 50%;
+  }
